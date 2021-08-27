@@ -28,7 +28,7 @@ while not game_is_finished:
     if guess in display:
         print(f"You've already guessed {guess}")
 
-        
+    Loop through each position in the chosen_word    
     for position in range(word_length):
         letter = chosen_word[position]
         if letter == guess:
