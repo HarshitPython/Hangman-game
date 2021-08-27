@@ -11,7 +11,8 @@ lives = len(stages) - 1
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
-
+#TODO-1: - Create an empty List called display.
+#For each letter in the chosen_word, add a "_" to 'display'.
 display = []
 for _ in range(word_length):
     display += "_"
