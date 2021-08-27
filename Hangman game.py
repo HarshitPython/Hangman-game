@@ -7,7 +7,7 @@ print(logo)
 game_is_finished = False
 lives = len(stages) - 1
 
-
+#TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
